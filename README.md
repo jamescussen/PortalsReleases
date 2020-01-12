@@ -6,7 +6,7 @@
 
 This project was created to make using multiple accounts with Office 365 easier. See more at my website [MyTeamsLab](http://www.myteamslab.com).
 
-Go to the [Relaeses](https://github.com/jamescussen/PortalsReleases/releases) page to download.
+Go to the [Releases](https://github.com/jamescussen/PortalsReleases/releases) page to download.
 
 ## License
 
