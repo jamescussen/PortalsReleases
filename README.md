@@ -10,3 +10,9 @@ Go to the [Releases](https://github.com/jamescussen/PortalsReleases/releases) pa
 
 Copyright: Copyright (c) 2020, James Cussen All rights reserved.
 This is currently a private project.
+
+## Change Log
+
+Version 1.01: 
+  - Added the ability to zoom in and out on web pages in the browser window using the menu and hotkeys.
+
