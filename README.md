@@ -15,4 +15,10 @@ This is currently a private project.
 
 Version 1.01: 
   - Added the ability to zoom in and out on web pages in the browser window using the menu and hotkeys.
+  
+Version 1.02
+
+	- Changed new window link clicking behavior. If you click on a link that requests a new window or tab it will get opened in a new window. This makes Exchange Admin Centre's window popping addiction workable.
+	- Added "Open link in this window" option to right click in browser.
+
 
