@@ -18,7 +18,7 @@ Version 1.01:
   
 Version 1.02
 
-	- Changed new window link clicking behavior. If you click on a link that requests a new window or tab it will get opened in a new window. This makes Exchange Admin Centre's window popping addiction workable.
-	- Added "Open link in this window" option to right click in browser.
+  - Changed new window link clicking behavior. If you click on a link that requests a new window or tab it will get opened in a new window. This makes Exchange Admin Centre's window popping addiction workable.
+  - Added "Open link in this window" option to right click in browser.
 
 
