@@ -21,4 +21,13 @@ Version 1.02:
   - Changed new window link clicking behavior. If you click on a link that requests a new window or tab it will get opened in a new window. This makes Exchange Admin Centre's window popping addiction workable.
   - Added "Open link in this window" option to right click in browser.
 
+Version 1.03:
+  - Fixed an issue where the notifications toast window would steal focus from another window.
 
+Version 1.04:
+  - Fixed crashing bug introduced on v1.0.3 for inbound calls.
+
+Version 1.05:
+  - Global and per account notification sounds have been added! Take your pick from the list of 25 hand crafted notification sounds. If you want all accounts to use the same notification sound then set it in Global Preferences. If you want to have specific sounds for certain accounts you can configure these in Account Preferences. Account preferences are more specific so they will take precedence over the Global Preference setting.
+  - Added Friendly Names for accounts. In the account preferences you can now change the name displayed in the launcher window (and in the title bar of browser windows) from the default email address to another name of your choice (ie. a more friendly name).
+  - Fixed a bug when closing a browser window that still has a notification toast associated with it.
