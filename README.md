@@ -4,35 +4,24 @@ This project was created to make using multiple accounts with Office 365 easier.
 
 Go to the [Releases](https://github.com/jamescussen/PortalsReleases/releases) page to download the installer (PortalsInstall-win32-x64.exe).
 
-![Portals](https://1.bp.blogspot.com/-DfgjotiLTow/Xhr2vpNnknI/AAAAAAAABBY/jDEgvcStk_kJ7u0IfRyIy_LUxh-neE_vACLcBGAsYHQ/s600/Portals_1.00.png)
+![Portals](https://1.bp.blogspot.com/-F4YdStAXY8g/YCShqcY55SI/AAAAAAAABTM/cUP-CubQ-VwBFAa6p2FN5iTJFVmMm43vgCPcBGAYYCw/s734/Portals1.1.1sm.png)
 
 ## License
 
-Copyright: Copyright (c) 2020, James Cussen All rights reserved.
+Copyright: Copyright (c) 2021, James Cussen All rights reserved.
 This is currently a private project.
 
 ## Change Log
 
-Version 1.0.1: 
-  - Added the ability to zoom in and out on web pages in the browser window using the menu and hotkeys.
-  
-Version 1.0.2:
+Version 1.1.1:
+  - Added a search function so you can easily filter the accounts list by typing a portion of the email address or friendly name into the search box.
+  - Added accordion open and closed state being saved so if you close portals the state will be retained on next load.
+  - Fixed issue with accordion open/closed state when moving accounts up and down when in edit state.
+  - Fixed issue with Teams notifications not working immediately after the user was added to Portals. Reboot of Portals was previously required but this has now been fixed.
+  - Fixed issue with deleting a user that was currently selected as the default template. This caused the template setting to continue reference the deleted user and potentially stop new users from being added. This has been corrected in this version by returning the default user setting back to "None" when the current default user is deleted.
 
-  - Changed new window link clicking behavior. If you click on a link that requests a new window or tab it will get opened in a new window. This makes Exchange Admin Centre's window popping addiction workable.
-  - Added "Open link in this window" option to right click in browser.
 
-Version 1.0.3:
-  - Fixed an issue where the notifications toast window would steal focus from another window.
-
-Version 1.0.4:
-  - Fixed crashing bug introduced on v1.0.3 for inbound calls.
-
-Version 1.0.5:
-  - Global and per account notification sounds have been added! Take your pick from the list of 25 hand crafted notification sounds. If you want all accounts to use the same notification sound then set it in Global Preferences. If you want to have specific sounds for certain accounts you can configure these in Account Preferences. Account preferences are more specific so they will take precedence over the Global Preference setting.
-  - Added Friendly Names for accounts. In the account preferences you can now change the name displayed in the launcher window (and in the title bar of browser windows) from the default email address to another name of your choice (ie. a more friendly name).
-  - Fixed a bug when closing a browser window that still has a notification toast associated with it.
-  
- Version 1.1.0:
+Version 1.1.0:
  - Updated to Electron 8.5.5 and Chromium 80.0.3987.163.
   - Optimisation of cookie handling - Should increase speed of browser window load and stability of sessions.
   - Added the option for selecting an existing user as the portal template for any new users that you add (Global Settings: Default Portal Template). This way you can use your own personal favourite portal layout for new users that you add!
@@ -60,3 +49,24 @@ Version 1.0.5:
   - Added connectivity analyzer portal.
   - Improved load speed on Teams portal windows.
   - Optimisations and bug fixes...
+  
+Version 1.0.5:
+  - Global and per account notification sounds have been added! Take your pick from the list of 25 hand crafted notification sounds. If you want all accounts to use the same notification sound then set it in Global Preferences. If you want to have specific sounds for certain accounts you can configure these in Account Preferences. Account preferences are more specific so they will take precedence over the Global Preference setting.
+  - Added Friendly Names for accounts. In the account preferences you can now change the name displayed in the launcher window (and in the title bar of browser windows) from the default email address to another name of your choice (ie. a more friendly name).
+  - Fixed a bug when closing a browser window that still has a notification toast associated with it.
+  
+Version 1.0.4:
+  - Fixed crashing bug introduced on v1.0.3 for inbound calls.
+
+Version 1.0.3:
+  - Fixed an issue where the notifications toast window would steal focus from another window.
+  
+Version 1.0.2:
+
+  - Changed new window link clicking behavior. If you click on a link that requests a new window or tab it will get opened in a new window. This makes Exchange Admin Centre's window popping addiction workable.
+  - Added "Open link in this window" option to right click in browser.
+
+Version 1.0.1: 
+  - Added the ability to zoom in and out on web pages in the browser window using the menu and hotkeys.
+  
+
