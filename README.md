@@ -13,6 +13,9 @@ This is currently a private project.
 
 ## Change Log
 
+Version 1.1.2:
+  - Only one copy of the app can be running at once. If you reopen it will restore the running app rather than open a second copy.
+
 Version 1.1.1:
   - Added a search function so you can easily filter the accounts list by typing a portion of the email address or friendly name into the search box.
   - Added accordion open and closed state being saved so if you close portals the state will be retained on next load.
