@@ -4,7 +4,9 @@ This project was created to make using multiple accounts with Office 365 easier.
 
 Go to the [Releases](https://github.com/jamescussen/PortalsReleases/releases) page to download the installer (PortalsInstall-win32-x64.exe).
 
-![Portals](https://1.bp.blogspot.com/-F4YdStAXY8g/YCShqcY55SI/AAAAAAAABTM/cUP-CubQ-VwBFAa6p2FN5iTJFVmMm43vgCPcBGAYYCw/s734/Portals1.1.1sm.png)
+<p align="center">
+  <img src="https://1.bp.blogspot.com/--FKm8g4M_7I/YSd628ym6uI/AAAAAAAABdU/BYyIKi_2Kv0OGLpRtoxoxSnffUXIsZsdQCLcBGAsYHQ/s800/Portals1.20-Light-Dark.png" alt="Portals Image"/>
+</p>
 
 ## License
 
@@ -12,6 +14,13 @@ Copyright: Copyright (c) 2021, James Cussen All rights reserved.
 This is currently a private project.
 
 ## Change Log
+
+Version 1.2.0:
+- Added Dark Mode!
+- Added search to the Add Portals dialog to make finding portals quicker.
+- Added a coloured title bar to the launcher and browser windows to remove ugly window chrome.
+- Changed the look of the Add Portal, Preferences and Delete Portal buttons.
+- Set a minimum browser window size (400x400).
 
 Version 1.1.2:
   - Only one copy of the app can be running at once. If you reopen it will restore the running app rather than open a second copy.
