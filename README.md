@@ -15,6 +15,13 @@ This is currently a private project.
 
 ## Change Log
 
+Version 1.3.0:
+- Upgraded to Electron 17.4.7 and Chromium 98.0.4758.141
+- Fixed popup windows in both old and new Exchange Admin Centres!
+- Fixed issues with some popup auth windows (e.g Data Source credential auth window in Power Bi).
+- Added Portals for Data Explorer, Resource Explorer and Azure Synapse Analytics.
+- Easter Egg: Choose your Portals logo :)
+
 Version 1.2.0:
 - Added Dark Mode!
 - Added search to the Add Portals dialog to make finding portals quicker.
