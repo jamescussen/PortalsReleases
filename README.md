@@ -10,7 +10,7 @@ Go to the [Releases](https://github.com/jamescussen/PortalsReleases/releases) pa
 
 ## License
 
-Copyright: Copyright (c) 2021, James Cussen All rights reserved.
+Copyright: Copyright (c) 2023, James Cussen All rights reserved.
 This is currently a private project.
 
 ## Change Log
