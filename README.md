@@ -15,6 +15,15 @@ This is currently a private project.
 
 ## Change Log
 
+Version 1.3.1:
+- Added account order sorting - Supports alphabetical order for username/friendly name and domain name based sort order. Sort order by default is not saved, however, the "Save sort order" setting in the Global Preferences allows you to save the sort order across reboots.
+- Fixed session expiry error bug that happens in the Azure portals. (After upgrading the error will be seen once more until cookies are saved again).
+- Fixed issue with calling toast not popping in Teams.
+- Added Entra Portal.
+- Added Azure Preview Portal.
+- Removed deprecated Protection Portal.
+- Other bug fixes and improvements.
+
 Version 1.3.0:
 - Upgraded to Electron 17.4.7 and Chromium 98.0.4758.141
 - Fixed popup windows in both old and new Exchange Admin Centres!
