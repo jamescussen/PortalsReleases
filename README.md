@@ -15,6 +15,13 @@ This is currently a private project.
 
 ## Change Log
 
+Version 1.3.2
+
+- Updated to Electron 18.3.15 and Chromium 100.0.4896.160.
+- Fixed white screen issue with Outlook portal.
+- Moved the sort order setting to the General settings section.
+- Other bug fixes and improvements.
+
 Version 1.3.1:
 - Added account order sorting - Supports alphabetical order for username/friendly name and domain name based sort order. Sort order by default is not saved, however, the "Save sort order" setting in the Global Preferences allows you to save the sort order across reboots.
 - Fixed session expiry error bug that happens in the Azure portals. (After upgrading the error will be seen once more until cookies are saved again).
