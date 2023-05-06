@@ -15,7 +15,7 @@ This is currently a private project.
 
 ## Change Log
 
-Version 1.3.2
+Version 1.3.2:
 
 - Updated to Electron 18.3.15 and Chromium 100.0.4896.160.
 - Fixed white screen issue with Outlook portal.
