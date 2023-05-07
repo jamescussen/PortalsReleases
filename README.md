@@ -15,6 +15,13 @@ This is currently a private project.
 
 ## Change Log
 
+Version 1.40:
+- Passcode Feature - The new passcode feature gives you the ability to further secure Portals by allowing you to lock the app (on initial open, when manually locked, when Windows is locked and/or after a specified idle time). The passcode adds an additional layer of security to Portals when you're away from your PC as well as additional encryption on the saved session data. Demo here: https://www.youtube.com/embed/7DTgx2SQC68
+- Added Apps Admin portal
+- Added Viva insights portal
+- Added Microsoft Partner portal
+
+
 Version 1.3.2:
 
 - Updated to Electron 18.3.15 and Chromium 100.0.4896.160.
