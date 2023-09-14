@@ -15,6 +15,19 @@ This is currently a private project.
 
 ## Change Log
 
+Version 1.41:
+- Upgraded to Electron 24.6.2 / Chromium 112.0.5615.204
+- Improvements to passcode - now when a browser window is locked you can click anywhere on the window and it will bring the launcher window to the front of screen.
+- Fixed issue with pop up authentication windows
+- Added option to auto fullscreen new portal windows - "Open browser windows fullscreen"
+- Fixed overflow rendering issue when Teams toast notifications has too many chars in the heading
+
+New Portals:
+- Developer Portal for Teams
+- Microsoft Fabric
+- Microsoft Loop
+  
+
 Version 1.40:
 - Passcode Feature - The new passcode feature gives you the ability to further secure Portals by allowing you to lock the app (on initial open, when manually locked, when Windows is locked and/or after a specified idle time). The passcode adds an additional layer of security to Portals when you're away from your PC as well as additional encryption on the saved session data. Demo here: https://www.youtube.com/embed/7DTgx2SQC68
 - Added Apps Admin portal
