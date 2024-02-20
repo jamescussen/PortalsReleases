@@ -10,11 +10,20 @@ Go to the [Releases](https://github.com/jamescussen/PortalsReleases/releases) pa
 
 ## License
 
-Copyright: Copyright (c) 2023, James Cussen All rights reserved.
+Copyright: Copyright (c) 2024, James Cussen All rights reserved.
 This is currently a private project.
 
 ## Change Log
+Version 1.42: Now with AI!
 
+- Added the Copilot portal
+- Added Purview portal
+- Updated the Compliance portal to have the new Purview icon
+- Added the Purview governance portal
+- Added CDX Portal
+- Added a dialog when deleting user accounts.
+- Reduced button wiggle in edit mode.
+  
 Version 1.41:
 - Upgraded to Electron 24.6.2 / Chromium 112.0.5615.204
 - Improvements to passcode - now when a browser window is locked you can click anywhere on the window and it will bring the launcher window to the front of screen.
