@@ -14,6 +14,16 @@ Copyright: Copyright (c) 2024, James Cussen All rights reserved.
 This is currently a private project.
 
 ## Change Log
+Version 1.43
+
+- Export and import config file for moving your configs between machines.
+- Alphabetized Portals in "Add Portals Page".
+- Added button to alphabetically sort buttons on accounts in edit mode.
+- Added 'teams rooms pro' button for the Teams Rooms Pro Management Portal (the same as the Managed Rooms button but with a new name)
+- Added Copilot Studio portal.
+- Added Microsoft Designer portal.
+- Added eCDN portal.
+
 Version 1.42: Now with AI!
 
 - Added the Copilot portal
